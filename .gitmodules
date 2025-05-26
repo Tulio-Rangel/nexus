@@ -1,0 +1,6 @@
+[submodule "nexus-inventory-frontend"]
+	path = nexus-inventory-frontend
+	url = https://github.com/Tulio-Rangel/nexus-inventory-frontend.git
+[submodule "nexus-inventory-backend"]
+	path = nexus-inventory-backend
+	url = https://github.com/Tulio-Rangel/nexus-inventory-backend.git
