@@ -16,9 +16,25 @@ Para obtener detalles específicos sobre la tecnología, configuración, cómo e
 
 Este directorio contiene el proyecto frontend de la aplicación. Es una interfaz de usuario desarrollada para interactuar con el backend y permitir a los usuarios gestionar el inventario de forma visual.
 
-Para obtener detalles específicos sobre la tecnología, configuración, cómo ejecutarlo y una guía de uso, por favor consulta el archivo `README.md` dentro de la carpeta [`nexus-inventory-frontend/README.md`](https://github.com/Tulio-Rangel/nexus-inventory-frontend/blob/main/README.md).
+Para obtener detalles específicos sobre la tecnología, configuración, cómo ejecutarlo y una guía de uso, por favor consulta el archivo `README.md` [`nexus-inventory-frontend/README.md`](https://github.com/Tulio-Rangel/nexus-inventory-frontend/blob/main/README.md).
 
 ---
 
 Para comenzar, navega a la carpeta del submódulo que te interese y sigue las instrucciones de su respectivo `README.md`.
+
+## Scripts de Base de Datos
+
+El repositorio incluye varios scripts SQL que facilitan la configuración de la base de datos y la carga de datos de prueba para el desarrollo:
+
+### Scripts para creación de tablas
+
+* `tabla-usuario.sql`: Contiene las sentencias SQL para crear la tabla de usuarios con su estructura completa.
+* `tabla-productos.sql`: Contiene las sentencias SQL para crear la tabla de productos con su estructura completa.
+
+### Scripts para datos de prueba
+
+* `usuarios-prueba.sql`: Incluye inserciones SQL para crear usuarios de prueba con diferentes roles y características.
+* `crear-productos.sql`: Incluye inserciones SQL para poblar la base de datos con productos de prueba.
+
+Estos scripts te permitirán tener una base de datos funcional con datos de ejemplo para comenzar a utilizar y probar la aplicación de inmediato.
 
