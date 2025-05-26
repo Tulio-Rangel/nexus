@@ -1,0 +1,7 @@
+CREATE TABLE users (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL UNIQUE,
+    age INTEGER NOT NULL,
+    position VARCHAR(255) NOT NULL,
+    hire_date DATE NOT NULL
+);
